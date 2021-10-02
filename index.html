@@ -94,15 +94,39 @@
             <input type="text" id="Name" name="Name"><br>
             <label for="Email">Email:</label>
             <input type="text" id="Email" name="Email"><br>
-            <label for="comment">Thoughts or comments</label>
-            <textarea id="comment" name="comment" rows="2" cols="40">Your input is appreciated.</textarea>
-        <input type="radio" id="pineapple" name="pineapple" value="Pineapple">
-        <label for="pineapple">Pineapple on pizza</label><br>
-        <input type="checkbox" id="check" name="check" value="check">
-        <label for="check">I love Coldplay</label>
-        <input type="checkbox" id="check1" name="check1" value="check1">
-        <label for="check1">Who's Coldplay? Haven't heard of them.</label><br>
-        <input type="submit" value="Submit">
+            <label for="subscribe">Subscribe to our newsletter:</label>
+            <select name="subscribe" id="subscribe">
+                <option value="YES">YES</option>
+                <option value="NO">NO</option>
+                <option value="MAYBE">MAYBE</option>
+            </select><br>
+
+            <label for="start">Date</label><br>
+            <input type="date" id="start" name="start" value="2021-09-18"><br>
+
+            <label for="college" id="college" name="college">Choose your favorite UCSD college:</label>
+            <input list="colleges" name="college" id="college">
+            <datalist id="colleges">
+                <option value="Warren">
+                <option value="ERC">
+                <option value="Revelle">
+                <option value="Muir">
+                <option value="Sixth">
+                <option value="Seventh">
+            </datalist>
+            <br>
+
+            <input type="radio" id="pineapple" name="pineapple" value="Pineapple">
+            <label for="pineapple">Pineapple on pizza</label><br>
+            <input type="checkbox" id="check" name="check" value="check">
+            <label for="check">I love Coldplay</label>
+            <input type="checkbox" id="check1" name="check1" value="check1">
+            <label for="check1">Who's Coldplay? Haven't heard of them.</label><br>
+
+            <label for="comment">Thoughts or comments</label><br>
+            <textarea id="comment" name="comment" rows="2" cols="50">This webpage is created for CSE110 Lab2 Fall 2021. Your input is much appreciated.
+            </textarea><br>
+            <button type="submit" value="Submit">Submit</button>
         </fieldset>
         
     </form>
