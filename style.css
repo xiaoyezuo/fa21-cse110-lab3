@@ -1,0 +1,19 @@
+/**/
+body{
+    color:#183A21;
+    background-color:lightblue;
+   
+}
+
+h1{
+    color:darkolivegreen;
+    
+}
+
+h2{
+    color:rgba(114, 140, 127, 1);
+}
+
+h3{
+    color:hsl(135, 71, 11);
+}
