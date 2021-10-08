@@ -2,18 +2,23 @@
 body{
     color:#183A21;
     background-color:lightblue;
+    text-decoration: double;
+    text-align: center;
    
 }
 
 h1{
     color:darkolivegreen;
-    
+    text-decoration: underline;
+    text-align: center;
 }
 
 h2{
     color:rgba(114, 140, 127, 1);
+    text-align: center;
 }
 
 h3{
     color:hsl(135, 71, 11);
+    text-align: center;
 }
