@@ -24,6 +24,7 @@ h1{
     border-color:chartreuse;
     border-width: 8px;
     border-radius: 5px;
+    display: block;
 
 }
 
@@ -42,4 +43,14 @@ h3{
     font-size: 20px;
     line-height: 30%;
     padding-bottom:1%;
+}
+
+img{
+    display:inline;
+    width:50%;
+    height:auto;
+}
+
+span{
+    display:inline-block
 }
