@@ -4,21 +4,42 @@ body{
     background-color:lightblue;
     text-decoration: double;
     text-align: center;
-   
+    font-size: 0.2in;
+    line-height: 0.8cm;
+    margin:auto;
+    padding:50px, 30px, 50px, 30px;
 }
 
 h1{
     color:darkolivegreen;
     text-decoration: underline;
     text-align: center;
+    font-size: 4vw;
+    margin-top:30px;
+    margin-left:150px;
+    margin-right:150px;
+    padding-left:20px;
+    padding-right:20px;
+    border-style: solid;
+    border-color:chartreuse;
+    border-width: 8px;
+    border-radius: 5px;
+
 }
 
 h2{
     color:rgba(114, 140, 127, 1);
     text-align: center;
+    font-size: 3vw;
+    line-height: 3vh;
+    margin: 10px 100px 70px 100px;
+    border-left: 6px solid greenyellow
 }
 
 h3{
     color:hsl(135, 71, 11);
     text-align: center;
+    font-size: 20px;
+    line-height: 30%;
+    padding-bottom:1%;
 }
