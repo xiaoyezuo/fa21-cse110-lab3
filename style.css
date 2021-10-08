@@ -49,6 +49,8 @@ img{
     display:inline;
     width:50%;
     height:auto;
+    max-width: fit-content;
+    min-width: none;
 }
 
 span{
