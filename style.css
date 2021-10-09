@@ -1,4 +1,17 @@
-/**/
+/*Media Query*/
+@media(width:360px){
+    div{
+        background-color: azure;
+    }
+}
+
+/*Fonts*/
+@font-face{
+    font-family: myFonts;
+    src:url(Akronim-Regular.ttf)
+}
+
+/*Body Text Style*/
 body{
     color:#183A21;
     background-color:lightblue;
@@ -25,7 +38,7 @@ h1{
     border-width: 8px;
     border-radius: 5px;
     display: block;
-
+    font-family: myFonts;
 }
 
 h2{
@@ -57,4 +70,40 @@ img{
 span{
     display:inline-block;
     position:static;
+}
+
+button:hover{
+    color:crimson;
+}
+
+a:active{
+    background-color: rgb(110, 185, 235);
+}
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:#183A21;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.one{
+    grid-column:1/3;
+    grid-row:1;
+}
+
+.two{
+    grid-column: 2/4;
+    grid-row:1/3;
+}
+
+.three{
+    grid-column:2;
+    grid-row:2;
 }
