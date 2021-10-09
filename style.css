@@ -51,8 +51,10 @@ img{
     height:auto;
     max-width: fit-content;
     min-width: none;
+    position: relative;
 }
 
 span{
-    display:inline-block
+    display:inline-block;
+    position:static;
 }
