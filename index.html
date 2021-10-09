@@ -5,6 +5,17 @@
         <meta charset="UTF-8" />
         <title>Meeting Minutes</title>
     </head>
+    <style>
+            .flex-container{
+                display:flex;
+                background-color: aquamarine;
+                flex-direction: column;
+                flex-basis: auto;
+                flex-wrap: nowrap;
+                flex-shrink: unset;
+            }
+
+    </style>
     <body>
         <main>
             <header>
@@ -40,7 +51,7 @@
                 <h3 id = "member">
                     New Members Introduction
                 </h3>
-                    <ul>
+                    <ul class="flex-container">
                         <li>Michael Scott</li>
                         <li>Sheldon Cooper</li>
                         <li>Hermione Granger</li>
@@ -64,11 +75,23 @@
 
             <section>
                 <h3>Open Forum</h3>
-                <div>Q: Where's the rental shop located?</div> <br>
                 <div>
+                    <div >Q: Where's the rental shop located?</div> <br>
                     <strong>A: It's located in <span style="color:rgb(132, 0, 255)">Outback Adventures</span> north of RIMAC Field!</strong>
                 </div>
+                </div>
+                <br>
+                <div>Q: Are there any discounts for students?
+                    <br>
+                    A:Yes, we offer discounts to students, staff, and faculty members. 
+                </div>
+                </div>
 
+            <div class="wrapper">
+                <div class="one">Outback</div>
+                <div class="two">Adventures</div>
+                <div class="three">UCSD</div>
+            </div>
             </section>
 
             <br>
